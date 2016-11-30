@@ -50,8 +50,7 @@
     [self setupPickerBtn];
     
     [self setupShareBtn];
-    
-    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(presentShare) name:@"shareBtnClickNotifi" object:nil];
+
     
 }
 
