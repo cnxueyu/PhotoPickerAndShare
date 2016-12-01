@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		8B8900F5439F153C4517955F /* libPods-PhotosPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C954B77F9F83CB073C2C43 /* libPods-PhotosPicker.a */; };
+		BE2640B11DEFD16200B95148 /* XYYSinglePhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2640B01DEFD16200B95148 /* XYYSinglePhotoController.m */; };
+		BE2640B41DEFD25B00B95148 /* XYYMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2640B31DEFD25B00B95148 /* XYYMainController.m */; };
+		BE2640B71DEFDD5900B95148 /* XYYMultiPhotosController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2640B61DEFDD5900B95148 /* XYYMultiPhotosController.m */; };
 		BE3100661DEE5E92002B0791 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3100651DEE5E92002B0791 /* main.m */; };
 		BE3100691DEE5E92002B0791 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3100681DEE5E92002B0791 /* AppDelegate.m */; };
-		BE31006C1DEE5E92002B0791 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE31006B1DEE5E92002B0791 /* ViewController.m */; };
 		BE31006F1DEE5E92002B0791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE31006D1DEE5E92002B0791 /* Main.storyboard */; };
 		BE3100711DEE5E92002B0791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3100701DEE5E92002B0791 /* Assets.xcassets */; };
 		BE3100741DEE5E92002B0791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3100721DEE5E92002B0791 /* LaunchScreen.storyboard */; };
@@ -19,12 +21,17 @@
 
 /* Begin PBXFileReference section */
 		16428E082CC069C254F4B68D /* Pods-PhotosPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotosPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotosPicker/Pods-PhotosPicker.release.xcconfig"; sourceTree = "<group>"; };
+		BE2640AF1DEFD16200B95148 /* XYYSinglePhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYYSinglePhotoController.h; sourceTree = "<group>"; };
+		BE2640B01DEFD16200B95148 /* XYYSinglePhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYYSinglePhotoController.m; sourceTree = "<group>"; };
+		BE2640B21DEFD25B00B95148 /* XYYMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYYMainController.h; sourceTree = "<group>"; };
+		BE2640B31DEFD25B00B95148 /* XYYMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYYMainController.m; sourceTree = "<group>"; };
+		BE2640B51DEFDD5900B95148 /* XYYMultiPhotosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYYMultiPhotosController.h; sourceTree = "<group>"; };
+		BE2640B61DEFDD5900B95148 /* XYYMultiPhotosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYYMultiPhotosController.m; sourceTree = "<group>"; };
+		BE2640B81DF0265F00B95148 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		BE3100611DEE5E92002B0791 /* PhotosPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotosPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3100651DEE5E92002B0791 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE3100671DEE5E92002B0791 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE3100681DEE5E92002B0791 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BE31006A1DEE5E92002B0791 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BE31006B1DEE5E92002B0791 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BE31006E1DEE5E92002B0791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE3100701DEE5E92002B0791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE3100731DEE5E92002B0791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -79,8 +86,13 @@
 			children = (
 				BE3100671DEE5E92002B0791 /* AppDelegate.h */,
 				BE3100681DEE5E92002B0791 /* AppDelegate.m */,
-				BE31006A1DEE5E92002B0791 /* ViewController.h */,
-				BE31006B1DEE5E92002B0791 /* ViewController.m */,
+				BE2640B21DEFD25B00B95148 /* XYYMainController.h */,
+				BE2640B31DEFD25B00B95148 /* XYYMainController.m */,
+				BE2640AF1DEFD16200B95148 /* XYYSinglePhotoController.h */,
+				BE2640B01DEFD16200B95148 /* XYYSinglePhotoController.m */,
+				BE2640B51DEFDD5900B95148 /* XYYMultiPhotosController.h */,
+				BE2640B61DEFDD5900B95148 /* XYYMultiPhotosController.m */,
+				BE2640B81DF0265F00B95148 /* PrefixHeader.pch */,
 				BE31006D1DEE5E92002B0791 /* Main.storyboard */,
 				BE3100701DEE5E92002B0791 /* Assets.xcassets */,
 				BE3100721DEE5E92002B0791 /* LaunchScreen.storyboard */,
@@ -231,9 +243,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE31006C1DEE5E92002B0791 /* ViewController.m in Sources */,
 				BE3100691DEE5E92002B0791 /* AppDelegate.m in Sources */,
+				BE2640B71DEFDD5900B95148 /* XYYMultiPhotosController.m in Sources */,
+				BE2640B41DEFD25B00B95148 /* XYYMainController.m in Sources */,
 				BE3100661DEE5E92002B0791 /* main.m in Sources */,
+				BE2640B11DEFD16200B95148 /* XYYSinglePhotoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +303,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = PhotosPicker/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",

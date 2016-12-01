@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  XYYMainController.h
 //  PhotosPicker
 //
-//  Created by 全球沃 on 2016/11/30.
+//  Created by 全球沃 on 2016/12/1.
 //  Copyright © 2016年 全球沃. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface XYYMainController : UIViewController
 
 @end
-
