@@ -19,6 +19,7 @@
 @implementation XYYMultiPhotosController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor grayColor];
@@ -80,6 +81,25 @@
         
         [self.view addSubview:button];
     }
+    
+    
+    
+}
+
+- (void)pickPhotos {
+    
+    
+    
+}
+
+- (void)clearTheImage {
+    
+    
+    
+}
+
+- (void)presentShare {
+    
     
     
     
